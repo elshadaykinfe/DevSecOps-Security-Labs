@@ -1,0 +1,22 @@
+# Python temporary files
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Credentials and encryption keys
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Authentication files
+tokens.txt
+otp_store.txt
+users.json
+
+# Logs and local test data
+*.log
+audit_log.txt
+patient_data/
